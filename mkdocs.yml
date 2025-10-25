@@ -16,7 +16,7 @@ theme:
     - content.tabs.link
     - toc.follow
   palette:
-    # Dark mode as default (modern preference)
+    # Dark mode as default
     - scheme: slate
       primary: deep purple
       accent: light blue
@@ -38,20 +38,18 @@ theme:
     repo: fontawesome/brands/github
   favicon: images/favicon.ico
 
-# Modern plugins for enhanced functionality
 plugins:
   - search
   - minify:
       minify_html: true
 
-# Additional modern features
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username
+      link: https://github.com/Maria-Djadi01/
       name: GitHub Repository
     - icon: material/email
-      link: mailto:instructor@university.edu
+      link: mailto:maria.djadi@etu.usthb.dz
       name: Contact Instructor
   analytics:
     provider: google
@@ -61,8 +59,8 @@ extra:
     description: We use cookies to enhance your experience.
 
 # Repository information (if using GitHub)
-repo_name: your-username/dsa1-lab-2025
-repo_url: https://github.com/your-username/dsa1-lab-2025
+repo_name: Maria-Djadi01/dsa-lab-2025
+repo_url: https://github.com/Maria-Djadi01/dsa-lab-2025
 edit_uri: edit/main/docs/
 
 # Copyright footer
