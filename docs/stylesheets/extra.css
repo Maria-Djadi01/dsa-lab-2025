@@ -1,0 +1,59 @@
+/* Modern gradient headers */
+.md-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Smooth transitions */
+.md-typeset {
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+/* Modern code blocks */
+.highlight .gp, .highlight .go {
+  color: transparent !important;
+}
+
+/* Custom button styling */
+.md-button {
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Card-like content sections */
+.md-content__inner {
+  background: var(--md-default-bg-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Modern table styling */
+.md-typeset table:not([class]) {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Custom callout boxes */
+.md-typeset .admonition {
+  border-radius: 0.5rem;
+  border-left-width: 0.25rem;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Modern focus states */
+:focus-visible {
+  outline: 2px solid var(--md-primary-fg-color);
+  outline-offset: 2px;
+  border-radius: 0.25rem;
+}
