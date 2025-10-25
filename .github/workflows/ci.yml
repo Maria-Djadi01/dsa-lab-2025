@@ -21,7 +21,7 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: pip install mkdocs-material  # Add other packages/plugins here
+        run: pip install mkdocs-material minify
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
