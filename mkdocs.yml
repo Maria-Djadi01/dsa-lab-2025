@@ -52,6 +52,9 @@ extra:
     - icon: material/email
       link: mailto:maria.djadi@etu.usthb.dz
       name: Contact Instructor
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/maria-djadi/
+      name: LinkedIn Profile
   analytics:
     provider: google
     property: G-XXXXXXXXXX
@@ -66,10 +69,8 @@ edit_uri: edit/main/docs/
 
 # Copyright footer
 copyright: |
-  &copy; 2025 DSA 1 Lab - Department of Computer Science, USTHB.
-  Developed by [Maria Djadi](https://www.linkedin.com/in/maria-djadi-123456789/)
+  &copy; 2025 DSA 1 Lab - Department of Computer Science, USTHB.<br>
 
-# Enhanced navigation with icons
 nav:
   - Home: index.md
   - Getting Started:

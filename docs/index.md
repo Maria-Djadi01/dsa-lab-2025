@@ -69,13 +69,13 @@ Before starting, make sure you have:
 ## 📅 Lab Schedule
 
 === "Upcoming Labs"
-    | Week | Topic | Focus |
-    |------|--------|--------|
-    | 1 | Introduction to C | Environment setup & syntax |
-    | 2 | Conditional Statements | if, else, switch |
-    | 3 | Loops | while, for, do-while |
-    | 4 | Arrays | 1D & 2D arrays |
-    | 5 | Functions | Modular programming |
+    | Topic | Focus |
+    |--------|--------|
+    | Introduction to C | Environment setup & syntax |
+    | Conditional Statements | if, else, switch |
+    | Loops | while, for, do-while |
+    | Arrays | 1D & 2D arrays |
+    | Functions | Modular programming |
 
 === "Quick Links"
     - [Lab 1 Exercises](lab1/exercises.md)
@@ -130,7 +130,3 @@ Once done:
 </div>
 
 ---
-
-> _Prepared and maintained by **Maria Djadi**_  
-> Department of Computer Science, USTHB  
-> ✉️ [maria.djadi@etu.usthb.dz](mailto:maria.djadi@etu.usthb.dz) | 🔗 [LinkedIn](https://www.linkedin.com/in/maria-djadi)
