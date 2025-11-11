@@ -1,11 +1,5 @@
 # 🔄 Lab 3: Practice Exercises - Iterative Structures
 
-**Course:** Data Structures & Algorithms 1 — 2025/2026  
-**Department of Computer Science, USTHB**  
-**Instructor:** Maria Djadi
-
----
-
 ## Exercise 1: Sum of First N Numbers ⭐
 
 ### Problem
@@ -21,7 +15,7 @@ Sum = 55
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -38,7 +32,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -59,7 +53,7 @@ Enter N: 5
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -77,7 +71,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -102,7 +96,7 @@ Enter number: 5
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -117,7 +111,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -141,7 +135,7 @@ Enter a number: 15
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -170,7 +164,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -192,7 +186,7 @@ Fibonacci sequence:
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -219,7 +213,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -240,7 +234,7 @@ Reversed: 54321
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -261,7 +255,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -285,7 +279,7 @@ Enter a number: 12345
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -310,7 +304,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -331,7 +325,7 @@ GCD(48, 18) = 6
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -353,7 +347,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -378,7 +372,7 @@ Enter a number: 123
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 #include <math.h>
 
@@ -413,7 +407,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -438,7 +432,7 @@ Enter height: 5
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -456,7 +450,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -481,7 +475,7 @@ Enter height: 5
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -504,7 +498,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -525,7 +519,7 @@ Sum of digits: 15
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -544,7 +538,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -565,7 +559,7 @@ Number of digits: 5
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -587,7 +581,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -613,7 +607,7 @@ Enter a number: 10
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -639,7 +633,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -662,7 +656,7 @@ Total: 10 primes
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -693,7 +687,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -715,7 +709,7 @@ LCM(12, 18) = 36
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -741,7 +735,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -763,7 +757,7 @@ Enter exponent: 5
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -783,7 +777,7 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
 
@@ -814,7 +808,7 @@ Goodbye!
 
 <details><summary>Solution</summary>
 
-```c
+<!-- ```c
 #include <stdio.h>
 
 int main() {
@@ -868,34 +862,9 @@ int main() {
     
     return 0;
 }
-```
+``` -->
 
 </details>
-
----
-
-## 🎯 Exercise Summary
-
-| Exercise | Difficulty | Concepts |
-|----------|-----------|----------|
-| 1. Sum of N numbers | ⭐ | for loop, accumulator |
-| 2. Factorial | ⭐ | for loop, multiplication |
-| 3. Multiplication Table | ⭐ | for loop, formatting |
-| 4. Prime Checker | ⭐⭐ | for loop, break, optimization |
-| 5. Fibonacci | ⭐⭐ | loop, sequence generation |
-| 6. Reverse Number | ⭐⭐ | while loop, modulus |
-| 7. Palindrome | ⭐⭐ | while loop, comparison |
-| 8. GCD | ⭐⭐ | while loop, algorithm |
-| 9. Armstrong | ⭐⭐ | nested calculation, pow() |
-| 10. Right Triangle | ⭐ | nested loops, pattern |
-| 11. Pyramid | ⭐⭐ | nested loops, spacing |
-| 12. Sum of Digits | ⭐ | while loop, extraction |
-| 13. Count Digits | ⭐ | while loop, counter |
-| 14. Perfect Number | ⭐⭐ | for loop, divisors |
-| 15. All Primes | ⭐⭐⭐ | nested loops, optimization |
-| 16. LCM | ⭐⭐ | combining algorithms |
-| 17. Power | ⭐ | for loop, repeated multiplication |
-| 18. Menu Calculator | ⭐⭐ | do-while, switch, menu |
 
 ---
 
@@ -904,6 +873,7 @@ int main() {
 ### Debugging Loops
 
 **Add debug output:**
+
 ```c
 for (int i = 0; i < n; i++) {
     printf("DEBUG: i=%d\n", i);
@@ -914,6 +884,7 @@ for (int i = 0; i < n; i++) {
 ### Testing Strategy
 
 Test each exercise with:
+
 - Normal values
 - Edge cases (0, 1, negative)
 - Large values
@@ -927,13 +898,14 @@ Test each exercise with:
 - Modifying loop counter inside body
 
 ---
-
+<!-- 
 ## 🚀 Challenge Problems
 
 After completing all exercises, try these:
 
 ### Challenge 1: Number Pattern
-```
+
+```bash
 Enter N: 5
 1
 22
@@ -943,22 +915,14 @@ Enter N: 5
 ```
 
 ### Challenge 2: Digital Root
+
 Keep summing digits until single digit remains.
 Example: 9875 → 9+8+7+5=29 → 2+9=11 → 1+1=2
 
 ### Challenge 3: Collatz Conjecture
+
 Start with any positive integer n:
 - If even: n = n/2
 - If odd: n = 3n + 1
 - Repeat until n = 1
-Count how many steps it takes.
-
----
-
-> **Prepared and maintained by Maria Djadi**  
-> Department of Computer Science, USTHB  
-> ✉️ [maria.djadi@usthb.edu.dz](mailto:maria.djadi@usthb.edu.dz)
-
----
-
-**End of Practice Exercises**
+Count how many steps it takes. -->
