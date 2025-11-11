@@ -83,9 +83,9 @@ nav:
       - Lab 2 - Decision Making:
           - Lab Content: lab2/lab2.md
           - Exercises: lab2/exercises.md
-      # - Lab 3 - Loops:
-      #     - Lab Content: lab3/lab3.md
-      #     - Exercises: lab3/exercises.md
+      - Lab 3 - Loops:
+          - Lab Content: lab3/lab3.md
+          - Exercises: lab3/exercises.md
 # Markdown extensions for better content
 markdown_extensions:
   - pymdownx.highlight:
