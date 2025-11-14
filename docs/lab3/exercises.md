@@ -1,5 +1,7 @@
 # 🔄 Lab 3: Practice Exercises - Iterative Structures
 
+---
+
 ## Exercise 1: Sum of First N Numbers ⭐
 
 ### Problem
@@ -8,21 +10,23 @@ Calculate the sum of first N natural numbers (1 + 2 + 3 + ... + N).
 
 ### Sample Output
 
-```
+```bash
 Enter N: 10
 Sum = 55
 ```
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
     int n, sum = 0;
-    
-    printf("Enter N: ");
-    scanf("%d", &n);
+    do{
+        printf("N must be positive. Please enter again.\n");
+        printf("Enter N: ");
+        scanf("%d", &n);
+    }while(n <= 0);
     
     for (int i = 1; i <= n; i++) {
         sum += i;
@@ -32,7 +36,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -53,7 +57,7 @@ Enter N: 5
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -71,7 +75,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -96,7 +100,7 @@ Enter number: 5
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -111,7 +115,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -135,7 +139,7 @@ Enter a number: 15
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -164,7 +168,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -186,7 +190,7 @@ Fibonacci sequence:
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -213,7 +217,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -227,14 +231,14 @@ Reverse the digits of a number.
 
 ### Sample Output
 
-```
+```bash
 Enter a number: 12345
 Reversed: 54321
 ```
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -255,7 +259,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -279,7 +283,7 @@ Enter a number: 12345
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -304,7 +308,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -325,7 +329,7 @@ GCD(48, 18) = 6
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -347,7 +351,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -372,7 +376,7 @@ Enter a number: 123
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 #include <math.h>
 
@@ -407,7 +411,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -432,7 +436,7 @@ Enter height: 5
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -450,7 +454,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -475,7 +479,7 @@ Enter height: 5
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -498,7 +502,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -519,7 +523,7 @@ Sum of digits: 15
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -538,7 +542,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -559,7 +563,7 @@ Number of digits: 5
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -581,7 +585,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -607,7 +611,7 @@ Enter a number: 10
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -633,7 +637,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -656,7 +660,7 @@ Total: 10 primes
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -687,7 +691,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -709,7 +713,7 @@ LCM(12, 18) = 36
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -735,7 +739,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -757,7 +761,7 @@ Enter exponent: 5
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -777,7 +781,7 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
@@ -808,7 +812,7 @@ Goodbye!
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -862,11 +866,12 @@ int main() {
     
     return 0;
 }
-``` -->
+```
 
 </details>
 
 ---
+
 
 ## 💡 Tips for Success
 
@@ -898,31 +903,3 @@ Test each exercise with:
 - Modifying loop counter inside body
 
 ---
-<!-- 
-## 🚀 Challenge Problems
-
-After completing all exercises, try these:
-
-### Challenge 1: Number Pattern
-
-```bash
-Enter N: 5
-1
-22
-333
-4444
-55555
-```
-
-### Challenge 2: Digital Root
-
-Keep summing digits until single digit remains.
-Example: 9875 → 9+8+7+5=29 → 2+9=11 → 1+1=2
-
-### Challenge 3: Collatz Conjecture
-
-Start with any positive integer n:
-- If even: n = n/2
-- If odd: n = 3n + 1
-- Repeat until n = 1
-Count how many steps it takes. -->
