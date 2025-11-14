@@ -100,31 +100,6 @@ Expected:
 
 ---
 
-## Grading Rubric (100 points)
-
-### Correctness (60%)
-
-- [ ] Correctly identifies all primes (20%)
-- [ ] Statistics calculated correctly (20%)
-- [ ] Twin primes identified correctly (10%)
-- [ ] Edge cases handled (10%)
-
-### Code Quality (25%)
-
-- [ ] Clean, readable code (5%)
-- [ ] Proper variable names (5%)
-- [ ] Good comments (5%)
-- [ ] Efficient algorithm (5%)
-- [ ] No compiler warnings (5%)
-
-### Output Format (15%)
-
-- [ ] Clear section headers (5%)
-- [ ] Proper formatting (5%)
-- [ ] Professional appearance (5%)
-
----
-
 ## Submission
 
 1. Accept GitHub Classroom assignment: [Accept assignment on GitHub Classroom](https://classroom.github.com/a/flWwVSX1)
