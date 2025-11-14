@@ -86,6 +86,7 @@ nav:
       - Lab 3 - Loops:
           - Lab Content: lab3/lab3.md
           - Exercises: lab3/exercises.md
+          - Assignment: lab3/assignment.md
 # Markdown extensions for better content
 markdown_extensions:
   - pymdownx.highlight:
