@@ -87,6 +87,10 @@ nav:
           - Lab Content: lab3/lab3.md
           - Exercises: lab3/exercises.md
           - Assignment: lab3/assignment.md
+      - Lab 4 - Arrays & Strings:
+          - Lab Content: lab4/lab4.md
+          - Exercises: lab4/exercises.md
+          - Assignment: lab4/assignment.md
 # Markdown extensions for better content
 markdown_extensions:
   - pymdownx.highlight:

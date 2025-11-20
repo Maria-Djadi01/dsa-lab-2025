@@ -31,6 +31,8 @@ All labs are taught using the **C programming language**, focusing on:
     ---
     - [Lab 1: Basic Concepts](lab1/lab1.md)
     - [Lab 2: Decision Making](lab2/lab2.md)
+    - [Lab 3: Loops](lab3/lab3.md)
+    - [Lab 4: Arrays & Strings](lab4/lab4.md)
 
 -   :material-help-circle: **Need Help?**
     ---
