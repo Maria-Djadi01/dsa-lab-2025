@@ -24,6 +24,7 @@ Maximum: 67
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 
@@ -54,6 +55,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -77,6 +79,7 @@ Sorted: 11 12 22 25 64
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 
@@ -119,6 +122,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -142,6 +146,7 @@ Second Largest: 34
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 #include <limits.h>
@@ -183,6 +188,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -208,6 +214,7 @@ Rotated: 4 5 1 2 3
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 
@@ -256,6 +263,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -284,6 +292,7 @@ Transpose:
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 
@@ -318,6 +327,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -348,6 +358,7 @@ Total pairs: 4
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 
@@ -385,6 +396,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -409,6 +421,7 @@ Copied: Hello
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 
@@ -430,6 +443,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -455,6 +469,7 @@ Character | Frequency
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -481,6 +496,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -501,6 +517,7 @@ Result: progamin
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -531,6 +548,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -558,6 +576,7 @@ hello and world are not anagrams
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -603,6 +622,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -625,6 +645,7 @@ Length: 5
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -669,6 +690,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -693,6 +715,7 @@ Compressed: abc (no compression)
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -738,6 +761,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -758,6 +782,7 @@ Reversed: C from World Hello
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -798,6 +823,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -825,6 +851,7 @@ Enter substring: xyz
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -870,6 +897,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
@@ -894,6 +922,7 @@ Decrypted: HELLO
 
 <details><summary>Solution</summary>
 
+<!--
 ```c
 #include <stdio.h>
 #include <ctype.h>
@@ -935,6 +964,7 @@ int main() {
     return 0;
 }
 ```
+-->
 
 </details>
 
