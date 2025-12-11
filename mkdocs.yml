@@ -91,6 +91,10 @@ nav:
           - Lab Content: lab4/lab4.md
           - Exercises: lab4/exercises.md
           - Assignment: lab4/assignment.md
+      - Lab 5 - Functions & Procedures:
+          - Lab Content: lab5/lab5.md
+          - Exercises: lab5/exercises.md
+          - Assignment: lab5/assignment.md
 # Markdown extensions for better content
 markdown_extensions:
   - pymdownx.highlight:
