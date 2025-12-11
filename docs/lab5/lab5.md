@@ -1,9 +1,5 @@
 # 🔧 Lab 5: Functions and Procedures
 
-**Course:** Data Structures & Algorithms 1 — 2025/2026  
-**Department of Computer Science, USTHB**  
-**Instructor:** Maria Djadi
-
 ---
 
 ## 🎯 Learning Objectives
@@ -158,8 +154,11 @@ int square(int x) {
 
 // Usage
 int result = square(5);  // result = 25
+```
+
 ### 2. Void Functions (Procedures)
 
+```c
 void printMessage(char message[]) {
     printf("%s\n", message);
     // No return statement
@@ -190,20 +189,23 @@ int max(int a, int b, int c) {
 // Usage
 int largest = max(10, 25, 18);  // 25
 ---
+```
 
 ## 📊 Parameters and Arguments
 
 ### Terminology
 
 **Parameters:** Variables in function definition (formal parameters)
-c
+```c
 int add(int x, int y) {  // x and y are parameters
     return x + y;
 }
+```
 
 **Arguments:** Actual values passed when calling (actual parameters)
-c
+```c
 int result = add(5, 3);  // 5 and 3 are arguments
+```
 
 ### Parameter Passing
 
@@ -212,12 +214,13 @@ int result = add(5, 3);  // 5 and 3 are arguments
 2. Values copied to parameters
 3. Function executes with parameter values
 4. Function returns (parameters destroyed)
-
+```c
 int main() {
     int a = 5, b = 3;
     int sum = add(a, b);  // a and b copied to parameters
     // a and b unchanged in main
 }
+```
 ---
 
 ## 🔀 Pass by Value
@@ -226,6 +229,7 @@ int main() {
 
 **All basic types passed by value** — function receives a copy.
 
+```c
 void increment(int x) {
     x = x + 1;
     printf("Inside function: %d\n", x);  // 6
@@ -237,6 +241,8 @@ int main() {
     printf("In main: %d\n", num);  // Still 5!
     return 0;
 }
+```
+
 **What happens:**
 1. num (5) is copied to parameter x
 2. x is incremented to 6 (copy modified)
@@ -259,6 +265,7 @@ main():                increment():
 
 **Use pointers to pass address:**
 
+```c
 void increment(int *x) {  // Pointer parameter
     *x = *x + 1;  // Modify value at address
 }
@@ -269,6 +276,8 @@ int main() {
     printf("%d\n", num);  // 6 (modified!)
     return 0;
 }
+```
+
 **What happens:**
 1. Address of num passed to function
 2. Function accesses original num via pointer
@@ -302,6 +311,7 @@ main():
 
 **Arrays are automatically passed as pointers!**
 
+```c
 void modifyArray(int arr[], int size) {
     arr[0] = 100;  // Modifies original!
 }
@@ -312,10 +322,13 @@ int main() {
     printf("%d\n", numbers[0]);  // 100 (changed!)
     return 0;
 }
+```
+
 **Why?** Array name is actually a pointer to first element.
 
 ### Must Pass Size Separately
 
+```c
 void printArray(int arr[], int size) {
     for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);
@@ -327,6 +340,8 @@ int main() {
     printArray(nums, 5);  // Must pass size!
     return 0;
 }
+```
+
 **Why?** Function doesn't know array size automatically.
 
 ---
@@ -336,6 +351,7 @@ int main() {
 ### Variable Scope
 
 **Local variables:** Only accessible within function
+
 ```c
 void func() {
     int x = 10;  // Local to func
@@ -348,6 +364,7 @@ int main() {
 ```
 
 **Global variables:** Accessible everywhere (avoid when possible)
+
 ```c
 int globalVar = 100;  // Global
 
@@ -363,13 +380,17 @@ int main() {
 ### Variable Lifetime
 
 **Automatic (local):** Created when function called, destroyed when function returns
-c
+
+```c
 void func() {
     int x = 10;  // Created
     // ...
 }  // x destroyed here
+```
 
 **Static:** Persists between function calls
+
+
 ```c
 void counter() {
     static int count = 0;  // Initialized once
@@ -392,7 +413,8 @@ int main() {
 ### 1. Single Responsibility
 
 **Bad:** Function does too much
-c
+
+```c
 void processStudent() {
     // Read input
     // Calculate average
@@ -402,25 +424,31 @@ void processStudent() {
     // Send email
     // Too much!
 }
+```
 
 **Good:** Each function has one job
-c
+
+```c
 float calculateAverage(int scores[], int size);
 char assignGrade(float average);
 void printReport(Student s);
 void saveToFile(Student s);
+```
 
 ### 2. Meaningful Names
 
 **Bad:**
-c
+```c
 int calc(int a, int b);  // Calc what?
 void process(int x);      // Process how?
+```
 
 **Good:**
-c
+
+```c
 int calculateArea(int width, int height);
 void validateInput(int userAge);
+```
 
 ### 3. Keep Functions Short
 
@@ -429,6 +457,7 @@ void validateInput(int userAge);
 ### 4. Avoid Side Effects
 
 **Bad:** Modifies global state unexpectedly
+
 ```c
 int total = 0;  // Global
 
@@ -439,10 +468,12 @@ int add(int a, int b) {
 ```
 
 **Good:** Pure function (no side effects)
-c
+
+```c
 int add(int a, int b) {
     return a + b;  // Only returns result
 }
+```
 
 ---
 
@@ -450,6 +481,7 @@ int add(int a, int b) {
 
 ### Pattern 1: Validation Functions
 
+```c
 int isValidAge(int age) {
     return (age >= 0 && age <= 120);
 }
@@ -458,10 +490,13 @@ int isLeapYear(int year) {
     return (year % 4 == 0 && year % 100 != 0) || 
            (year % 400 == 0);
 }
+```
+
 **Returns:** 1 (true) or 0 (false)
 
 ### Pattern 2: Conversion Functions
 
+```c
 float celsiusToFahrenheit(float celsius) {
     return (celsius * 9.0 / 5.0) + 32.0;
 }
@@ -469,8 +504,11 @@ float celsiusToFahrenheit(float celsius) {
 int stringToInt(char str[]) {
     // Convert string to integer
 }
+```
+
 ### Pattern 3: Calculation Functions
 
+```c
 float calculateBMI(float weight, float height) {
     return weight / (height * height);
 }
@@ -480,8 +518,11 @@ float calculateCompoundInterest(float principal,
                                  int years) {
     return principal * pow(1 + rate, years);
 }
+```
+
 ### Pattern 4: Search/Find Functions
 
+```c
 int findMax(int arr[], int size) {
     int max = arr[0];
     for (int i = 1; i < size; i++) {
@@ -500,72 +541,100 @@ int linearSearch(int arr[], int size, int target) {
     }
     return -1;  // Not found
 }
+```
+
 ---
 
 ## 🚨 Common Mistakes
 
 ### 1. Missing Return Statement
 
+```c
 int square(int x) {
     int result = x * x;
     // Forgot return!
 }  // Undefined behavior
+```
+
+
 **Fix:**
-c
+
+```c
 int square(int x) {
     return x * x;
 }
+```
 
 ### 2. Wrong Return Type
 
+```c
 int divide(int a, int b) {
     return a / b;  // Integer division!
 }
 
 divide(5, 2);  // Returns 2, not 2.5
+```
+
 **Fix:**
-c
+
+```c
 float divide(int a, int b) {
     return (float)a / b;  // 2.5
 }
+```
 
 ### 3. Modifying Array Without Intent
 
+```c
 void printArray(int arr[], int size) {
     arr[0] = 999;  // Oops! Modified original
     // ...
 }
+```
+
 **Fix:** Use const if read-only
-c
+
+```c
 void printArray(const int arr[], int size) {
     // arr[0] = 999;  // Compiler error!
     // ...
 }
+```
 
 ### 4. Infinite Recursion
 
+```c
 int bad(int n) {
     return n + bad(n - 1);  // No base case!
 }
+```
+
 **Fix:** Always have base case
-c
+
+```c
 int good(int n) {
     if (n == 0) return 0;  // Base case
     return n + good(n - 1);
 }
+```
 
 ### 5. Not Passing Size for Arrays
 
+```c
 void process(int arr[]) {
     // How many elements? Unknown!
 }
+```
+
 **Fix:**
-c
+
+```c
 void process(int arr[], int size) {
     for (int i = 0; i < size; i++) {
         // ...
     }
 }
+```
 
 ---
 
@@ -574,39 +643,50 @@ void process(int arr[], int size) {
 ### Already Available in C
 
 **stdio.h:**
-c
+
+```c
 printf()  // Output
 scanf()   // Input
 fgets()   // Read line
+```
 
 **math.h:**
-c
+
+```c
 sqrt()    // Square root
 pow()     // Power
 sin()     // Sine
 cos()     // Cosine
 abs()     // Absolute value
+```
 
 **string.h:**
-c
+
+```c
 strlen()  // String length
 strcpy()  // String copy
 strcmp()  // String compare
 strcat()  // String concatenate
+```
 
 **ctype.h:**
-c
+
+```c
 isalpha() // Is letter?
 isdigit() // Is digit?
 toupper() // To uppercase
 tolower() // To lowercase
+```
 
 **stdlib.h:**
-c
+
+```c
 rand()    // Random number
 srand()   // Seed random
 atoi()    // String to int
 malloc()  // Allocate memory
+free()    // Free memory
+```
 
 ---
 
@@ -615,7 +695,8 @@ malloc()  // Allocate memory
 ### Breaking Programs into Functions
 
 **Bad: Monolithic main()**
-c
+
+```c
 int main() {
     // 200 lines of code
     // Everything in main
@@ -623,8 +704,9 @@ int main() {
     // Hard to test
     // Hard to reuse
 }
-
+```
 **Good: Modular**
+
 ```c
 void displayMenu();
 int getUserChoice();
