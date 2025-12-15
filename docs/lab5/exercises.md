@@ -29,7 +29,7 @@ float divide(int a, int b);
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 // Function declarations
@@ -71,7 +71,7 @@ float divide(int a, int b) {
     }
     return (float)a / b;
 }
-``` -->
+```
 
 </details>
 
@@ -104,7 +104,7 @@ int isPrime(int n);  // Returns 1 if prime, 0 otherwise
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 #include <math.h>
 
@@ -151,7 +151,8 @@ int isPrime(int n) {
     
     return 1;
 }
-``` -->
+```
+
 </details>
 
 ---
@@ -185,7 +186,7 @@ float fahrenheitToCelsius(float fahrenheit);
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 float celsiusToFahrenheit(float celsius);
@@ -210,7 +211,8 @@ float celsiusToFahrenheit(float celsius) {
 float fahrenheitToCelsius(float fahrenheit) {
     return (fahrenheit - 32.0) * 5.0 / 9.0;
 }
-``` -->
+```
+
 </details>
 ---
 
@@ -240,7 +242,7 @@ Reversed: 30 20 10
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 void reverseArray(int arr[], int size);
@@ -290,7 +292,8 @@ void printArray(int arr[], int size) {
     }
     printf("\n");
 }
-``` -->
+```
+
 </details>
 ---
 
@@ -319,7 +322,7 @@ int isEven(int n);  // Returns 1 if even, 0 if odd
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int isEven(int n);
@@ -342,7 +345,8 @@ int main() {
 int isEven(int n) {
     return (n % 2 == 0);
 }
-``` -->
+```
+
 </details>
 ---
 
@@ -370,7 +374,7 @@ Sorted array:   11 12 22 25 34 64 90
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 void bubbleSort(int arr[], int size);
@@ -419,7 +423,8 @@ void printArray(int arr[], int size) {
     }
     printf("\n");
 }
-``` -->
+```
+
 </details>
 ---
 
@@ -447,7 +452,7 @@ Max of -1, -5, -3 = -1
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int max3(int a, int b, int c);
@@ -473,7 +478,8 @@ int max3(int a, int b, int c) {
     
     return maximum;
 }
-``` -->
+```
+
 </details>
 ---
 
@@ -502,7 +508,7 @@ int countDigits(int n);
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -540,7 +546,7 @@ int countDigits(int n) {
     
     return count;
 }
-``` -->
+```
 
 </details>
 ---
@@ -570,7 +576,7 @@ Sum = 15
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int arraySum(int arr[], int size);
@@ -608,7 +614,7 @@ void printArray(int arr[], int size) {
     }
     printf("\n");
 }
-``` -->
+```
 
 </details>
 ---
@@ -642,7 +648,7 @@ Count: 7
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int findMin(int arr[], int size);
@@ -710,7 +716,8 @@ void printArray(int arr[], int size) {
     }
     printf("\n");
 }
-``` -->
+```
+
 </details>
 
 ---
@@ -740,7 +747,7 @@ long factorial(int n);
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 long factorial(int n);
@@ -769,7 +776,7 @@ long factorial(int n) {
     
     return result;
 }
-``` -->
+```
 
 </details>
 ---
@@ -797,7 +804,7 @@ Searching for 99: Not found (-1)
 ```
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 int linearSearch(int arr[], int size, int target);
@@ -844,7 +851,7 @@ void printArray(int arr[], int size) {
     }
     printf("\n");
 }
-``` -->
+```
 
 </details>
 ---
@@ -884,7 +891,7 @@ Sum of all elements: 45
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 void readMatrix(int matrix[][10], int rows, int cols);
@@ -932,7 +939,7 @@ int sumMatrix(int matrix[][10], int rows, int cols) {
     }
     return sum;
 }
-``` -->
+```
 
 </details>
 ---
@@ -965,7 +972,7 @@ Number of vowels: 3 (o, a, i)
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 #include <ctype.h>
 
@@ -1026,7 +1033,7 @@ int countVowels(char str[]) {
     
     return count;
 }
-``` -->
+```
 
 </details>
 ---
@@ -1075,7 +1082,7 @@ Grade: A
 
 <details><summary>Solution</summary>
 
-<!-- ```c
+```c
 #include <stdio.h>
 
 void readScores(int scores[], int size);
@@ -1139,6 +1146,6 @@ void displayReport(int scores[], int size) {
     printf("Average: %.2f\n", avg);
     printf("Grade: %c\n", grade);
 }
-``` -->
+```
 
 </details>
